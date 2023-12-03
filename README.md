@@ -20,6 +20,10 @@ How to run the project in my system?
 
 NOTE - Use the above command to simply create the table through MySQL admin panel
 6. Remember to check the username and password according to your credentials.
-7. Navigate to browser "http://localhost/email_demo/signup.php"
+7. Also you will need to change the username (this mail id should be the one from where you need to send the mail) and password in "generateAndStoreOTP.php".
+	7.1 To generate the password you will need to enable and do a 2-step verification of your google mail ID
+ 	7.2 Then navigate to "App passwords" by searching in the search bar of your google account .
+  	7.3 Give an app name and create the password.The password thus generated must be copied (without providing space) in the "generateAndStoreOTP.php" file
+8. Navigate to browser "http://localhost/email_demo/signup.php"
 
 Incase you face any problem while executing this project feel free to reach out to me :)
